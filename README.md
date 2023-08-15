@@ -23,3 +23,14 @@ src/: This is where the main source code for your application resides.
 - requirements.txt: List of required Python packages.
 - README.md: Project documentation.
 - app.py: Main application entry point
+
+The idea is to keep it as simple as possible and at same time more prepared as possible to be able to grow or change integrations, databases(in our case there is no database but is ready in case we want to integrate to one)
+
+installing and using:
+because of the simplicity you only need python, and flask installed for tests I used pytest.
+
+pip install flask
+
+python app.py
+
+curl http://localhost:5000/games
